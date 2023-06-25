@@ -1,0 +1,134 @@
+body {
+  width: 100%;
+  height: 100vh;
+  background: #0F2027;
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  position: relative;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: rgba(15, 32, 39, 0.5607843137);
+}
+header > div {
+  height: 100%;
+}
+
+#header-logo {
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+}
+#header-logo > p {
+  text-transform: uppercase;
+  color: white;
+  font-size: 30px;
+  font-family: "poppins-bold-i";
+}
+
+#header-btn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 5%;
+}
+#header-btn > i {
+  color: white;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#menu {
+  width: 30%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.8352941176);
+  right: -30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  transition: 0.4s ease-in-out;
+}
+#menu > section {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#menu > section > a {
+  width: 70px;
+  height: 70px;
+  background-color: rgba(151, 151, 151, 0.551);
+  border-radius: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s ease-in-out;
+  box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.29);
+  -webkit-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.29);
+  -moz-box-shadow: 0px 0px 14px 0px rgba(0, 0, 0, 0.29);
+  position: relative;
+}
+#menu > section > a > i {
+  color: rgb(70, 70, 70);
+  font-size: 35px;
+  transition: 0.4s ease-in-out;
+}
+#menu > section > a > div {
+  width: 100px;
+  height: 35px;
+  background-color: #1DA1F2;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transition: 0.4s ease-in-out;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+  font-family: "font";
+}
+#menu > section > a:hover {
+  background: #0F2027;
+  background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+  transform: scale(1.2);
+}
+#menu > section > a:hover > i {
+  color: white;
+}
+#menu #close {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background-color: #0F2027;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#menu #close > i {
+  color: white;
+  font-size: 30px;
+  transform: rotate(45deg);
+}
+
+main {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > video {
+  width: 1000px;
+}/*# sourceMappingURL=master.css.map */
