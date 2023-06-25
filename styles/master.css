@@ -50,6 +50,7 @@ header > div {
   justify-content: space-evenly;
   flex-direction: column;
   transition: 0.4s ease-in-out;
+  visibility: hidden;
 }
 #menu > section {
   height: 100px;
